@@ -1,7 +1,7 @@
 .PHONY: all clean install
 
 CFLAGS ?=
-CFLAGS += -Wno-multichar -O3 -march=native
+CFLAGS += -Wno-multichar -O3 -mcpu=apple-a14
 
 LIBS := -lz -framework CoreFoundation -framework CoreServices
 
